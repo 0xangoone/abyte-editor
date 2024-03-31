@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css"/>
+        <script type="module" src="editor.ts" defer></script>
+        <script type="module" src="../main.ts" defer></script>
+        <link rel="stylesheet" href="../App.css" />
+        <link rel="stylesheet" href="../styles.css" />
+        <link rel="stylesheet" href="../simple text editor/texteditor.css"/>
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="main">
+            <div class="items_container">
+                <div class="item open_old">open other project</div>
+                <div class="item _save">save</div>
+                <div class="item run">run</div>
+                <div onclick="exit" class="item exit">exit</div>
+            </div>
+        </header>
+        <div class="editor">
+            <div class="file_system">
+                <div class="flexed">
+                    <button class="return">return</button>
+                    <button class="create">create</button>
+                    <button class="delete">delete current selected</button>
+                </div>
+                <div class="files">
+                    
+                </div>
+            </div>
+            <img class="image" src="../assets/CSharp.png"/>
+            <video class="audio" controls>
+                <source class="source"/>
+            </video>
+            <textarea class="numbered" placeholder="Enter something..."></textarea>
+        </div>
+    </body>
+</html>

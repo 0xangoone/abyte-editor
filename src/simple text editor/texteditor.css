@@ -1,0 +1,40 @@
+textarea{
+    resize: none;
+    background: #202020;
+    color:white;
+    width: 98%;
+    height: 92.2vh;
+    font-size: 23px;
+    line-height: 33.36px;
+    margin-top: 50px;
+}
+
+
+/*header*/
+.Header{
+    position: fixed;
+}
+.main{
+    display: flex;
+    color: white;
+}
+header{
+    justify-content: left;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    position: fixed;
+    z-index: 999;
+}
+.items_container{
+    margin-right: 100px;
+    display: flex;
+}
+.item{
+    transition: 0.1s ease-in;
+    margin-left: 20px;
+    margin:12px;
+}
+.item:hover{
+    transform: scale(1.1);
+    color: aquamarine;
+}/*header end*/

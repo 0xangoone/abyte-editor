@@ -1,0 +1,63 @@
+.project_name{
+    width: 550px;
+}
+.create_btn{
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+}
+.error_msg{
+    color: rgb(112, 0, 0);
+}
+
+
+.editor{
+    display: flex;
+}
+.file_system{
+    width: 300px;
+    background-color: rgb(15, 15, 15);
+    height: 96vh;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.flexed{
+    display: flex;
+}
+.icon{
+    margin-top: 10px;
+    width: 40px;
+    margin-right: 50px;
+    height: 40px;
+}
+.element{
+    margin-left: 10px;
+    transition: 0.3s ease-in;
+}
+.element:hover{
+    transform: scale(1.01);
+    background: #1E5128;
+}
+hidden{
+    display: none;
+}
+.image{
+    width: 25%;
+    height: 25%;
+    display: none;
+    margin-top: 20vh;
+    margin-left: 50vh;
+}
+.audio{
+    display: none;
+    margin-bottom: 50vh;
+    margin-left: 30vw;
+}
+.new_file{
+    border-radius: 20px;
+    background: rgb(50, 50, 50);
+}
+.new_file:hover{
+    transform: scale(1.0001);
+    background: rgb(50, 50, 50);
+}

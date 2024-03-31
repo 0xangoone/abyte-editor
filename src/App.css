@@ -1,0 +1,64 @@
+.main_pannel{
+  width: 1200px;
+  height: 500px;
+  margin-left: 20%;
+  border-radius: 50px;
+
+  background-color: rgb(33, 33, 33);
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.languges{
+  justify-content: center; 
+  align-items: center; 
+  padding: 0px;
+  margin-right: 5px;
+  display: flex;
+}
+
+.cart{
+  width: 200px;
+  background: #343434;
+  margin: 20px;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+.cart:hover{
+  transform: scale(1.1);
+  color: #D8E9A8;
+  background: #1E5128;
+}
+.title1{
+  width: 333px;
+}
+.title{
+  height: 72px;
+  margin-left: 250px;
+}
+button{
+  margin-top: 5px;
+  width: 250px;
+  height: 50px;
+  background: #343434;
+}
+.mainlogo{
+  width:100px;
+  height: 100px;
+  margin-left: 47%;
+  margin-bottom: 50px;
+}.textEdlogo{
+  width: 300px;
+  height: 300px;
+}
+textarea.numbered {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-size: 45px 51000px ;
+  background-attachment: local;
+  background-repeat: no-repeat;
+  padding-left: 70px;
+  padding-top: 30px;
+  border-color:#ccc;
+}
